@@ -3,31 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
+	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>${EXECUTABLE_NAME}</string>
+	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleGetInfoString</key>
-	<string>${MODULE_VERSION}, Copyright © 2013-2014 TimeWalker. All rights reserved.</string>
+	<string>$(MODULE_VERSION), Copyright © 2013-2014 TimeWalker. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>$(MARKETING_VERSION)</string>
+	<string>$(MODULE_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<string>$(MODULE_VERSION)</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>CodecCommander</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>${MODULE_NAME}</string>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 			<key>Codec Profile</key>
 			<dict>
 				<key>1002</key>
@@ -326,7 +326,7 @@
 		<key>CodecCommanderPowerHook</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>${MODULE_NAME}</string>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 			<key>Codec Profile</key>
 			<dict>
 				<key>1002</key>
@@ -351,7 +351,7 @@
 		<key>CodecCommanderProbeInit</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>${MODULE_NAME}</string>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 			<key>Codec Profile</key>
 			<dict>
 				<key>Default</key>
@@ -370,7 +370,7 @@
 		<key>CodecCommanderResidency</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>${MODULE_NAME}</string>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 			<key>IOClass</key>
 			<string>CodecCommanderResidency</string>
 			<key>IOMatchCategory</key>
@@ -381,7 +381,7 @@
 		<key>CodecCommanderVoodooHDA</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>${MODULE_NAME}</string>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 			<key>Codec Profile</key>
 			<dict>
 				<key>1002</key>
@@ -445,6 +445,6 @@
 		<string>9.0.0</string>
 	</dict>
 	<key>Source Code</key>
-	<string>https://github.com/RehabMan/EAPD-Codec-Commander</string>
+	<string>https://github.com/Sniki/EAPD-Codec-Commander</string>
 </dict>
 </plist>
